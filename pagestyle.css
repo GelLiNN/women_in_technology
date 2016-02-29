@@ -1,0 +1,267 @@
+/*CSS file for Women in Tech solution, Kellan Nealy 5/10/2015*/
+body {
+	background-color: #333333;
+	font-family: "Segoe UI Light", Verdana, serif;
+	padding: 0px;
+	margin: 0px;
+}
+
+#main {
+	padding-top: 150px;
+	padding-bottom: 30px;
+	width: 80%;
+	height: auto;
+	background-color: #3D007A;
+	margin-left: auto;
+	margin-right:auto;
+	box-shadow: 0px 0px 30px black;
+	overflow: hidden;
+	border-radius: 20px;
+}
+
+#banner {
+	position: fixed;
+	width: 100%;
+	background-color: #DAB547;
+	font-weight: bold;
+	font-size: 42pt;
+	padding-bottom: 10px;
+	text-align: center;
+	letter-spacing: 3px;
+	text-shadow: 3px 3px 3px #5200A3;
+	color: #5200A3;
+}
+
+#app {
+	color: white;
+	clear: both;
+	height: auto;
+	padding-top: 200px;
+	padding-bottom: 30px;
+	padding-left: 15px;
+	padding-right: 15px;
+	background-color: #5200A3;
+}
+
+#bar {
+	width: 90%;
+	background-color: white;
+	height: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 5px;
+}
+
+h1 {
+	text-align: center;
+	letter-spacing: 2px;
+	font-weight: bold;
+	color: white;
+}
+
+h3 {
+	text-align: center;
+	margin-left: 30px;
+	font-family: Impact, serif;
+	font-size: 18pt;
+	letter-spacing: 3px;
+	font-style: italic;
+	color: white;
+	text-shadow: 0px 0px 10px black;
+}
+
+h2 {
+	margin-left: 30px;
+	font-family: Arial, serif;
+	font-size: 36pt;
+	letter-spacing: 5px;
+	color: white;
+	text-shadow: 10px 10px 10px black;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+input {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	font-size: 24pt;
+	font-family: Monospace, serif;
+	border: 10px solid #4c4c4c;
+	border-radius: 5px;
+	margin-bottom: 30px;
+}
+
+input:hover {
+	box-shadow: 0px 0px 5px white;
+}
+
+/* -----------------------JUST IN CASE I NEED A BUTTON
+
+#button {
+	text-align: center;
+	font-family: Monospace, serif;
+	color: white;
+	background-color: #DAB547;
+	font-size: 36pt;
+	letter-spacing: 5px;
+	font-weight: bold;
+	width: 60%;
+	border: 2px solid black;
+	border-radius: 15px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px;
+}
+
+#button:hover {
+	background-color: black;
+	text-shadow: 0px 0px 20px white;
+}
+
+*/
+
+span {
+	color: black;
+	font-size: 72pt;
+	font-weight: bold;
+	float: left;
+	text-shadow: 20px 10px 0px #DAB547;
+	margin-left: 30px;
+	margin-bottom: 5px;
+}
+
+#nav {
+	margin-top: 10px;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: #9966FF;
+}
+
+#nav p {
+	display: inline;
+	text-align: center;
+	color: white;
+	background-color: gray;
+	border: 3px dashed black;
+	font-size: 14pt;
+	margin: 0px;
+}
+
+#nav p:hover {
+	box-shadow: 0px 0px 20px white;
+	cursor: default;
+}
+
+#heading {
+	margin-top: 15px;
+	text-align: left;
+	font-size: 8pt;
+	float: left;
+	color: white;
+	font-style: italic;
+}
+
+#searchhelper {
+	background-color: #99E6FF;
+	margin: 20px;
+	padding: 10px;
+	border: 2px dashed black;
+	border-radius: 10px;
+	float: left;
+}
+
+#results {
+	clear: both;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 30px;
+	width: 80%;
+	background-color: #9966FF;
+	border-radius: 10px;
+	padding: 10px;
+}
+
+#results p {
+	text-align: center;
+}
+
+#about, #response1, #res1, #res2, #ft1, #metech, #femdes {
+	color: white;
+	background-color: #FF6666;
+	border: 5px solid gray;
+	border-radius: 10px;
+	box-shadow: 0px 0px 20px gray;
+	padding: 10px;
+	text-shadow: 0px 0px 10px white;
+	text-align: center;
+	margin: 15px;
+}
+
+#femdes {
+	text-align: left;
+	background-color: black;
+}
+
+#metech {
+	text-align: left;
+	color: black;
+	background-color: white;
+}
+
+#response1 {
+	font-family: Verdana;
+	text-align: left;
+	background-color: #B8FFDB;
+	color: black;
+}
+
+#ft1 {
+	text-align: left;
+	background-color: #FFC266;
+}
+
+li {
+	font-size: 18pt;
+}
+
+#res1 {
+	text-align: left;
+	background-color: #FF85E0;
+}
+
+#res2 {
+	text-align: left;
+	background-color: #3D9999;
+}
+
+#light, #femimg1, #femimg2, #podplayer {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#femimg2 {
+	width: 750px;
+	height: 200px;
+}
+
+#femimg1 {
+	float: right;
+	width: 150px;
+	height: 150px;
+}
+
+#podplayer:hover {
+	box-shadow: 0px 0px 20px white;
+}
+
+#searching {
+	text-align: center;
+	font-size: 18pt;
+	font-weight: bold;
+	letter-spacing: 3px;
+	color: white;
+	text-shadow: 0px 0px 10px white;
+}
